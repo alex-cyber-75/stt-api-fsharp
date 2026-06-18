@@ -2,17 +2,11 @@
 
 ## Doing
 
-
+- Write tests (#03 test/03_create_simple_test)
 
 ## Backlog
 
-
-
-- Implement main functionality
-- Write tests
-
-
-
+- Implement main functionality (#04)
 
 
 ## Done
