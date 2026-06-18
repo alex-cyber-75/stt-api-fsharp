@@ -23,7 +23,7 @@ jobs:
         run: dotnet restore
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build src/STTApi.fsproj --configuration Release --no-restore
 
       - name: Run tests
         run: dotnet test tests/Tests.fsproj --no-build --verbosity normal
