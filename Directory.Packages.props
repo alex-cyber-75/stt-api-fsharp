@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <PackageVersion Include="Whisper.Net" Version="1.2.0" />
+  </ItemGroup>
+</Project>
