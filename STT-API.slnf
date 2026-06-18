@@ -1,9 +1,0 @@
-{
-  "solution": {
-    "path": "src\\STTApi.sln",
-    "projects": [
-      "..\\tests\\Tests.fsproj",
-      "STTApi.fsproj"
-    ]
-  }
-}
