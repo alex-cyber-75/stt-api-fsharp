@@ -1,0 +1,23 @@
+# .NET
+*.dll
+*.exe
+*.pdb
+*.obj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs
+
+# Rider
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+bin/
+obj/
