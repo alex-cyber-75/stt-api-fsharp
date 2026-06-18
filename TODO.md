@@ -2,7 +2,7 @@
 
 ## Doing
 
-- CI: build GH workflow
+
 
 ## Backlog
 
@@ -11,5 +11,7 @@
 - Write tests
 - Update documentation
 
+
+- CI: build GH workflow
 
 ## Done
