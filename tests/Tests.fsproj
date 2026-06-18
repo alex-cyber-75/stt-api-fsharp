@@ -10,5 +10,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\src\STTApi.fsproj" />
+    <Compile Include="PromptTests.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\**\*.*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 </Project>
