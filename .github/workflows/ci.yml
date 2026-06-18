@@ -1,4 +1,4 @@
-# CI workflow for STTApi
+# CI workflow for STT-Api
 name: CI
 
 on:
