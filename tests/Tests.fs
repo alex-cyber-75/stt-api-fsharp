@@ -1,7 +1,7 @@
 namespace Tests
-open Xunit
+open NUnit.Framework
 open STTApi
 
-[<Fact>]
+[Test]
 let ``Hello world test`` () =
-    Assert.True(true)
+    Assert.IsTrue(true)
