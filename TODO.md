@@ -13,6 +13,6 @@
 - Update documentation
 
 
-- CI: build GH workflow
+- CI: build GH workflow (done)
 
 ## Done

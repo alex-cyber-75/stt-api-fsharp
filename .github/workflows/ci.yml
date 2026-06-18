@@ -1,7 +1,4 @@
-# CI workflow for STT-API
-# This workflow runs on pushes and pull requests to the main branch.
-# It restores dependencies, builds the project, and runs tests if any.
-
+# CI workflow for STTApi
 name: CI
 
 on:
@@ -20,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '8.0.x'
 
       - name: Restore dependencies
         run: dotnet restore
@@ -29,12 +26,4 @@ jobs:
         run: dotnet build --configuration Release --no-restore
 
       - name: Run tests
-        if: always()
         run: dotnet test --no-build --verbosity normal
-
-      - name: Upload build artifacts
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-output
-          path: bin/Debug/net10.0
